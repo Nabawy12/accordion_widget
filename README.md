@@ -40,7 +40,7 @@ AccordionWidget(
 ## Screenshots
 | Collapsed | Expanded |
 |-----------|---------|
-| ![Collapsed](assets/images/collapsed.png) | ![Expanded](assets/images/expanded.png) |
+| ![Collapsed](assets/images/Ui.png) | ![Expanded](assets/images/code.png) |
 
 ## About the Developer
 This package is developed and maintained by **Zeyad Nabawy**, a passionate Flutter developer focused on creating efficient and reusable UI components.
