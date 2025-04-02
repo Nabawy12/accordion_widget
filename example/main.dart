@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:accordion_widget/accordion_widget.dart'; // استبدل باسم باكيجك
+import 'package:accordion_widget/accordion_widget.dart';
 
 void main() {
   runApp(MyApp());

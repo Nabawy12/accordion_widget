@@ -14,6 +14,7 @@ class AccordionWidget extends StatefulWidget {
   final Curve animationCurve;
 
   const AccordionWidget({
+    super.key,
     required this.header,
     required this.content,
     this.isInitiallyExpanded = false,
@@ -79,13 +80,11 @@ class _AccordionWidgetState extends State<AccordionWidget>
     return Container(
       padding: widget.padding ?? EdgeInsets.zero,
       width: double.infinity,
-      decoration:
-          (widget.decoration is BoxDecoration
+      decoration: (widget.decoration is BoxDecoration
               ? (widget.decoration as BoxDecoration).copyWith(
-                color:
-                    (widget.decoration as BoxDecoration).color ??
-                    Theme.of(context).cardColor,
-              )
+                  color: (widget.decoration as BoxDecoration).color ??
+                      Theme.of(context).cardColor,
+                )
               : widget.decoration) ??
           BoxDecoration(
             color: Theme.of(context).cardColor,
