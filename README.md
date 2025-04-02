@@ -1,16 +1,55 @@
-# accordion_widget
+# Accordion Widget
 
-A new Flutter project.
+A highly customizable and lightweight Flutter package for creating accordion-style UI components.
 
-## Getting Started
+## Features
+- Fully customizable UI
+- Smooth animations
+- Support for dynamic content
+- Easy integration with existing Flutter apps
 
-This project is a starting point for a Flutter application.
+## Installation
+Add this to your `pubspec.yaml` file:
 
-A few resources to get you started if this is your first Flutter project:
+```yaml
+dependencies:
+  accordion_widget: latest_version
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Then, run:
+```sh
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+Import the package:
+```dart
+import 'package:accordion_widget/accordion_widget.dart';
+```
+
+Example usage:
+```dart
+AccordionWidget(
+  title: "Tap to Expand",
+  content: Text("This is the expanded content"),
+  expandedIcon: Icons.keyboard_arrow_down,
+  collapsedIcon: Icons.keyboard_arrow_right,
+)
+```
+
+## Screenshots
+| Collapsed | Expanded |
+|-----------|---------|
+| ![Collapsed](assets/images/collapsed.png) | ![Expanded](assets/images/expanded.png) |
+
+## About the Developer
+This package is developed and maintained by **Zeyad Nabawy**, a passionate Flutter developer focused on creating efficient and reusable UI components.
+
+### Connect with me:
+- [GitHub](https://github.com/Nabawy12)
+- [LinkedIn](https://www.linkedin.com/in/zeyad-nabawy-639877218/)
+- [Email](mailto:ZeyadNabawy118@gmail.com)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
