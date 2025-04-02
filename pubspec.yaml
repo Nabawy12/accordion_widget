@@ -2,9 +2,10 @@ name: accordion_widget
 description: A customizable and lightweight accordion widget for Flutter.
 version: 1.0.0
 
-repository: https://github.com/Nabawy12/AccordionWidget
-homepage: https://github.com/Nabawy12/AccordionWidget
-issue_tracker: https://github.com/Nabawy12/AccordionWidget/issues
+repository: https://github.com/Nabawy12/accordion_widget
+homepage: https://github.com/Nabawy12/accordion_widget
+issue_tracker: https://github.com/Nabawy12/accordion_widget/issues
+
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
